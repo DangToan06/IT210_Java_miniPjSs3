@@ -1,17 +1,3 @@
-# PHÂN CÔNG NHIỆM VỤ DỰ ÁN: STUDENTHUB (SPRING MVC)
-
-## 1. Thông tin chung
-* **Số lượng thành viên:** 10
-* **Công nghệ:** Java Spring MVC (XML/Java Config), JSP, JSTL, Tomcat 10.
-* **Mô hình:** Repository - Service - Controller - View.
-
-## 2. Bảng phân công chi tiết
-
-Đây là bản phân công nhiệm vụ được cập nhật theo cấu trúc thư mục mới nhất của bạn. Tôi đã tối ưu hóa để chia đều khối lượng công việc cho 10 người, đảm bảo các file mới như DashboardSummary và StudentStatus đều có người phụ trách.
-
-Bạn có thể copy nội dung Markdown bên dưới:
-
-Markdown
 # PHÂN CÔNG NHIỆM VỤ DỰ ÁN: STUDENTHUB (CẤU TRÚC MỚI)
 
 ## 1. Tổng quan dự án
