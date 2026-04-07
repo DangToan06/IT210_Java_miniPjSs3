@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="ms-21" project-jdk-type="JavaSDK">
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">
+>>>>>>> 2172842b352be8a386110860d355d46eb2fadb89
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
