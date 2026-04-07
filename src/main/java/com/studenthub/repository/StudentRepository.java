@@ -1,4 +1,5 @@
 package com.studenthub.repository;
+<<<<<<< HEAD
 import org.example.studenthub.model.Student;
 import org.springframework.stereotype.Repository;
 @Repository
@@ -18,4 +19,15 @@ public interface StudentRepository {
     public Student findById(int id) {
         return students.stream().filter(s -> s.getId() == id).findFirst().orElse(null);
     }
+=======
+
+import com.studenthub.model.Student;
+
+import java.util.List;
+
+public interface StudentRepository {
+    List<Student> filterBySearchAndFaculty(String search, String faculty);
+
+    List<Student> sort(List<Student> source, String sortBy);
+>>>>>>> 6553a36fd0e03ea831806d50f48d44618d86c10d
 }
