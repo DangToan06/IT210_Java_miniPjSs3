@@ -1,17 +1,3 @@
-# PHÂN CÔNG NHIỆM VỤ DỰ ÁN: STUDENTHUB (SPRING MVC)
-
-## 1. Thông tin chung
-* **Số lượng thành viên:** 10
-* **Công nghệ:** Java Spring MVC (XML/Java Config), JSP, JSTL, Tomcat 10.
-* **Mô hình:** Repository - Service - Controller - View.
-
-## 2. Bảng phân công chi tiết
-
-Đây là bản phân công nhiệm vụ được cập nhật theo cấu trúc thư mục mới nhất của bạn. Tôi đã tối ưu hóa để chia đều khối lượng công việc cho 10 người, đảm bảo các file mới như DashboardSummary và StudentStatus đều có người phụ trách.
-
-Bạn có thể copy nội dung Markdown bên dưới:
-
-Markdown
 # PHÂN CÔNG NHIỆM VỤ DỰ ÁN: STUDENTHUB (CẤU TRÚC MỚI)
 
 ## 1. Tổng quan dự án
@@ -23,16 +9,16 @@ Markdown
 
 | STT | Thành viên | Vai trò | Nhiệm vụ chi tiết | File đảm nhiệm chính |
 |:---:|:---|:---|:---|:---|
-| 01 | **Leader** | Cấu hình (Config) | Thiết lập Java Config cho Spring MVC, ViewResolver và quản lý vòng đời ứng dụng. | `AppConfig.java`, `WebInit.java` |
-| 02 | **Member** | Model Core | Định nghĩa Enum `StudentStatus` và class `Student` với đầy đủ các field theo SRS. | `Student.java`, `StudentStatus.java` |
-| 03 | **Member** | Model Báo cáo | Thiết kế class `DashboardSummary` để chứa các dữ liệu thống kê (Tỉ lệ, Thủ khoa, GPA TB). | `DashboardSummary.java` |
-| 04 | **Member** | Repository Base | Viết Interface `StudentRepository` và định nghĩa các phương thức truy xuất dữ liệu cơ bản. | `StudentRepository.java` |
-| 05 | **Member** | Data Seeding | Implement `StudentRepositoryImpl`, khởi tạo danh sách 10 thành viên nhóm (Hardcoded data). | `StudentRepositoryImpl.java` |
-| 06 | **Member** | Service Logic 1 | Xử lý logic tìm kiếm, lọc theo khoa và sắp xếp (Sort) tại tầng Service. | `StudentService.java` (phần Filter/Sort) |
-| 07 | **Member** | Service Logic 2 | Xử lý logic tính toán thống kê và đóng gói vào đối tượng `DashboardSummary`. | `StudentService.java` (phần Stats) |
-| 08 | **Member** | Controller | Viết bộ điều hướng cho danh sách sinh viên, chi tiết sinh viên và dashboard. | `StudentController.java`, `DashboardController.java` |
-| 09 | **Member** | Frontend (Student) | Xây dựng giao diện danh sách và chi tiết (sử dụng JSTL/EL để hiển thị dynamic data). | `students/list.jsp`, `students/detail.jsp` |
-| 10 | **Member** | Frontend (Admin) | Thiết kế giao diện Dashboard và viết CSS/JS dùng chung cho toàn bộ hệ thống. | `dashboard.jsp`, `resources/css/`, `js/` |
+| 01 |  **Toàn**  | Cấu hình (Config) | Thiết lập Java Config cho Spring MVC, ViewResolver và quản lý vòng đời ứng dụng. | `AppConfig.java`, `WebInit.java` |
+| 02 |  **Bách**  | Model Core | Định nghĩa Enum `StudentStatus` và class `Student` với đầy đủ các field theo SRS. | `Student.java`, `StudentStatus.java` |
+| 03 |  **Quang** | Model Báo cáo | Thiết kế class `DashboardSummary` để chứa các dữ liệu thống kê (Tỉ lệ, Thủ khoa, GPA TB). | `DashboardSummary.java` |
+| 04 |   **Huy**  | Repository Base | Viết Interface `StudentRepository` và định nghĩa các phương thức truy xuất dữ liệu cơ bản. | `StudentRepository.java` |
+| 05 |  **Phong** | Data Seeding | Implement `StudentRepositoryImpl`, khởi tạo danh sách 10 thành viên nhóm (Hardcoded data). | `StudentRepositoryImpl.java` |
+| 06 |  **Minh**  | Service Logic 1 | Xử lý logic tìm kiếm, lọc theo khoa và sắp xếp (Sort) tại tầng Service. | `StudentService.java` (phần Filter/Sort) |
+| 07 |  **Hoàng** | Service Logic 2 | Xử lý logic tính toán thống kê và đóng gói vào đối tượng `DashboardSummary`. | `StudentService.java` (phần Stats) |
+| 08 |  **Dương** | Controller | Viết bộ điều hướng cho danh sách sinh viên, chi tiết sinh viên và dashboard. | `StudentController.java`, `DashboardController.java` |
+| 09 |  **Thành** | Frontend (Student) | Xây dựng giao diện danh sách và chi tiết (sử dụng JSTL/EL để hiển thị dynamic data). | `students/list.jsp`, `students/detail.jsp` |
+| 10 |  **Nhật**  | Frontend (Admin) | Thiết kế giao diện Dashboard và viết CSS/JS dùng chung cho toàn bộ hệ thống. | `dashboard.jsp`, `resources/css/`, `js/` |
 ## 3. Cấu trúc thư mục thống nhất
 ```text
 src/
